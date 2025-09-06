@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://avatars.mds.yandex.net/get-ydo/5575550/2a0000018c630b72eeb4956cc65f75e6c1c1/diploma" type="image/x-icon">
+    <title>News App</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>News App</h1>
+            <a href="#" onclick="algo()">разборы личностей алги</a>
+        </div>
+
+        <div class="search-div" id="search-div">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Поиск новостей">
+            </div>
+            <button onclick="fetchNews()">Поиск</button>
+        </div>
+
+        <div class="news-container" id="news-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
