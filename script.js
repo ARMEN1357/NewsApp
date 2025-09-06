@@ -1,4 +1,4 @@
-const API_KEY = '1f0ef25771d74023a3118716b153dfc3';
+const API_KEY = 'f1ae41280b8845528936fede8ed2b912';
 let currentPage = 1;
 const news_container = document.getElementById('news-container');
 const keyword = document.getElementById('search-input').value.trim();
@@ -81,3 +81,4 @@ function fetchNews() {
 
 
 document.addEventListener('DOMContentLoaded', () => {});
+
