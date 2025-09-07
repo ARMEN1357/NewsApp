@@ -7,3 +7,7 @@
 Проект был сделан за 1 день
 
 ## Клонировать репозиторий
+
+    ```bash
+     git clone https://github.com/ARMEN1357/NewsApp
+     ```
